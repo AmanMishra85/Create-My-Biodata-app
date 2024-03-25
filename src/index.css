@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .custom-shape-divider-top-1710439985 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    .custom-shape-divider-top-1710439985 svg {
+        position: relative;
+        display: block;
+        width: calc(195% + 1.3px);
+        height: 350px;
+        transform: rotateY(180deg);
+    }
+
+    .custom-shape-divider-top-1710439985 .shape-fill {
+        fill: url(#gradient1);
+    }
+
+    .linear-gradient {
+        fill: linear-gradient(to right, #ec5c3ccf,#716cd6,#a4eb9b,#decc26);
+    }
+
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1710439985 svg {
+            width: calc(173% + 1.3px);
+            height: 340px;
+        }
+    }
+    .labelBox{
+        background-color: rgb(239, 238, 238);
+        padding: 15px 15px 15px 24px;
+        display: flex;
+        border-radius: 5px;
+        font-size: 17px;
+        color:rgb(69, 67, 67);
+        margin-bottom: -20px;
+        width: 100%;
+        border: 1px solid rgb(196, 196, 196);
+    }
+    .inputBox{
+        padding: 15px 15px 15px 24px;
+        display: flex;
+        border-radius: 5px;
+        font-size: 17px;
+        color:rgb(69, 67, 67);
+        margin:0px 0px 30px 0px;
+        width: 100%;
+        border: 1px solid rgb(196, 196, 196);
+    }
+    .inputBox:hover{
+        border: 1px solid rgb(35, 34, 34);
+    }
+
+    .container {
+        height: 410px;
+        width: 290px;
+        background-color: #e4f2e9;
+        margin:auto;
+        border-radius: 10px;
+        padding:10px;
+    }
+    .container-cropper{
+        height: 90%;
+        padding: 10px;
+    }
+
+    .cropper{
+        position: relative;
+        height: 90%;
+    }
+
+    .slider{
+        height: 10%;
+        display: flex;
+        align-items: center;
+        width: 60%;
+        margin: auto;
+    }
+
+    .container-buttons{
+        height: 10%;
+        border-top:2px solid #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        padding-top:8px;
+    }
+    
+}
